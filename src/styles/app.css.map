@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "app.scss",
+        "custom/__bases.scss",
+        "layout/__header.scss",
+        "pages/__home.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
