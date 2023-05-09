@@ -1,0 +1,48 @@
+@import "../custom/_custom";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 16vh;
+
+  #link {
+    color: $base_red;
+    font-size: 1.7vw;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__first {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    & a {
+      margin-inline: -2vw;
+    }
+  }
+
+  &__second {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      height: 11vh;
+    }
+  }
+
+  &__third {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 3vw;
+
+    & a {
+      margin-inline: -2vw;
+    }
+  }
+}

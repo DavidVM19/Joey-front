@@ -1,0 +1,268 @@
+@import "../custom/_custom";
+
+.home {
+  &__img {
+    & img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin: 6vw;
+    text-align: center;
+    color: $base_brown;
+    font-size: 25px;
+  }
+
+  &__cardstitle {
+    margin: 6vw;
+    text-align: center;
+    color: $base_brown;
+    font-size: 25px;
+  }
+
+  &__shoptitle {
+    margin: 8vw;
+    text-align: center;
+    color: $base_green;
+    font-size: 25px;
+  }
+
+  &__reviewstitle {
+    margin: 6vw;
+    text-align: center;
+    color: $base_brown;
+    font-size: 25px;
+  }
+
+  &__presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $base_red;
+
+    & h2 {
+      font-weight: 400;
+    }
+
+    & h3 {
+      font-size: 33px;
+    }
+
+    &__first {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      &__img-zoom {
+        border-radius: 1rem;
+        width: 30vw;
+        height: 50vh;
+        overflow: hidden;
+        position: relative;
+
+        & img {
+          position: relative;
+          width: 40vw;
+          right: 7vw;
+          bottom: 17vh;
+        }
+      }
+
+      & h2 {
+        position: absolute;
+        font-size: 200px;
+        right: 54vw;
+      }
+
+      &__text {
+        width: 45%;
+        position: relative;
+        left: 1vw;
+
+        & h3 {
+          padding-inline: 4rem;
+        }
+      }
+    }
+
+    &__second {
+      position: relative;
+      bottom: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      &__img-zoom {
+        position: relative;
+        right: -7vw;
+        border-radius: 1rem;
+        width: 29vw;
+        height: 40vh;
+        overflow: hidden;
+
+        & img {
+          position: relative;
+          width: 51vw;
+          right: 2vw;
+          bottom: 11vh;
+        }
+      }
+
+      & h2 {
+        z-index: 1;
+        position: absolute;
+        font-size: 200px;
+        left: 56vw;
+      }
+
+      &__text {
+        width: 35%;
+        position: relative;
+        text-align: end;
+        right: 1vw;
+      }
+    }
+
+    &__third {
+      position: relative;
+      bottom: 8vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      &__img-zoom {
+        border-radius: 1rem;
+        width: 30vw;
+        height: 50vh;
+        overflow: hidden;
+        position: relative;
+
+        & img {
+          position: relative;
+          width: 52vw;
+          right: 8vw;
+        }
+      }
+
+      & h2 {
+        position: absolute;
+        font-size: 200px;
+        right: 54vw;
+      }
+
+      &__text {
+        width: 45%;
+        position: relative;
+
+        & h3 {
+          padding-inline: 6rem;
+        }
+      }
+    }
+
+    &__fourth {
+      position: relative;
+      bottom: 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      &__img-zoom {
+        position: relative;
+        right: -7vw;
+        border-radius: 1rem;
+        width: 29vw;
+        height: 40vh;
+        overflow: hidden;
+
+        & img {
+          position: relative;
+          width: 36vw;
+          bottom: 19vw;
+        }
+      }
+
+      & h2 {
+        z-index: 1;
+        position: absolute;
+        font-size: 200px;
+        left: 56vw;
+      }
+
+      &__text {
+        width: 35%;
+        position: relative;
+        text-align: end;
+        left: 4vw;
+
+        & h3 {
+          padding-inline: 4rem;
+        }
+      }
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+
+    & img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+
+    &__second {
+      margin-left: 3rem;
+    }
+
+    &__third {
+      margin-inline: 3rem;
+    }
+  }
+
+  &__shop {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $base_green;
+    height: 35vw;
+    margin-inline: 1rem;
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 4vw;
+        border: solid 3px $base_green;
+        border-radius: 1rem;
+        position: relative;
+        top: -1rem;
+        background-color: $base_white;
+        font-size: 2.3vw;
+        font-weight: bold;
+        color: $base_green;
+      }
+    }
+  }
+
+  &__reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
